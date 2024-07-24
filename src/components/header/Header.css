@@ -1,0 +1,16 @@
+.custom-swal .swal2-popup {
+  width: 500px;
+  height: auto; 
+}
+
+.custom-swal .swal2-title {
+  font-size: 18px; 
+}
+
+.custom-swal .swal2-content {
+  font-size: 14px; 
+}
+
+.custom-swal .swal2-confirm, .custom-swal .swal2-cancel {
+  font-size: 14px; 
+}

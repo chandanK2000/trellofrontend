@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Apply custom styles for form controls */
+
+.form-control {
+  border: 1px solid #3a96f1 !important; 
+  border-radius: 0.175rem !important;   
+  box-shadow: none !important;         
+  padding: 0px 0.25rem !important;  
+  font-size: 1rem !important;         
+  background-color: #fff !important;   
+  margin-bottom: 0 !important;
+  width: 100% !important;
+}
+
+.form-control:focus {
+  border-color: #007bff !important; 
+  box-shadow: none !important;     
+  outline: none;     
+}
+/* Adjust the modal dialog and body styles */
+.modal-dialog {
+  min-height: calc(100% - 1.75rem);
+  margin-top: 0vh !important;
+
+}
+
+.modal-dialog.modal-sm {
+  max-width: 400px;
+  margin: 1.75rem auto;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.navbar {
+  background-color: rgb(161, 13, 247) !important;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+  padding-right: 20px;
+}
+
+.navbar .btn {
+  margin-left: 10px;
+}
+
+
+.btn:focus{
+  box-shadow: none !important;
+}
+textarea{
+
+  border-bottom: 1x solid blue !important;
+  resize: none !important;
+}
+
+.margins{
+  margin: 100px  auto!important;
+}

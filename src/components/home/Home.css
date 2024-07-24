@@ -1,0 +1,45 @@
+.modal-dialog.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+}
+
+.modal-content {
+  padding: 20px;
+}
+
+.modal-header .close {
+  margin: -1rem -1rem -1rem auto;
+}
+
+.modal-body {
+  padding:10px;
+}
+
+.form-control.no-border {
+  border: none;
+  box-shadow: none; 
+}
+
+.swal2-popup {
+  width: 350px;
+  height: auto;
+}
+
+.swal2-title {
+  font-size: 18px; 
+}
+
+.swal2-html-container {
+  font-size: 14px;
+}
+
+.swal2-confirm {
+  font-size: 14px; 
+}
+
+.swal2-cancel {
+  font-size: 14px; 
+}
+
+
+
