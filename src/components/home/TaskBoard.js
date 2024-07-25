@@ -25,7 +25,7 @@ const DraggableTask = ({ task, onDrop, onDelete }) => {
       <div className="text-end">
         <Link to={`/tasks/edit/${task._id}`} className="btn btn-danger">Edit</Link>
         <button className="btn btn-info" onClick={() => onDelete(task._id)}>Delete</button>
-        <Link to={`/tasks/view/${task._id}`} className="btn btn-priary">View Details</Link>
+        <Link to={`/tasks/view/${task._id}`} className="btn btn-primary">View Details</Link>
       </div>
     </div>
   );
